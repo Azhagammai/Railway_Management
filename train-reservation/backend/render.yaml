@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: train-reservation-backend
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: DB_HOST
+        value: your-mysql-host
+      - key: DB_USER
+        value: your-mysql-user
+      - key: DB_PASSWORD
+        value: your-mysql-password
+      - key: DB_NAME
+        value: train_reservation
+      - key: JWT_SECRET
+        value: train_reservation_secure_jwt_key_2023
+      - key: PORT
+        value: 10000 

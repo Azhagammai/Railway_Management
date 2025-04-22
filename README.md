@@ -2,6 +2,30 @@
 
 A full-stack train reservation system built with React and Node.js.
 
+ ## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](LOGIN_PAGE.png)
+
+### 📝 Register Page
+![Register Page](REGISTER_PAGE.png)
+
+### 🚄 Available Trains
+![Available Trains](AVAILABLE_TRAINS.png)
+
+### 🎟️ Book Tickets
+![Book Tickets](BOOK_TICKETS.png)
+
+### 📜 My Bookings
+![My Bookings](MY_BOOKING.png)
+
+### ✅ Token Verification
+![Token Verification](TOKEN_VERIFICATION.png)
+
+### 🗃️ Database Design
+![Database](DATA_BASE.png)
+
+
 ## Project Structure
 
 ```
@@ -71,4 +95,6 @@ The frontend application will run on http://localhost:5173
   - Node.js
   - Express
   - JSON Web Tokens
-  - CORS 
+  - CORS
+ 
+ 
